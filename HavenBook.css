@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding:0;
+   
+
+}
+body{
+            background:linear-gradient(to right, #FFC907, #B5C327 ) ;
+            background-size: cover;
+            background-position: center;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+.uplinks{
+   overflow: hidden;
+   background-color:rgb(216, 203, 26);
+   display: flex;
+   text-align: center;
+  justify-content: space-between;
+}
+.uplinks ul {
+    display: inline-flex;
+    list-style: none;
+    float: left;
+    color:#fff;
+    padding: 13px 16px;
+    text-decoration: solid;
+}
+.uplinks ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.uplinks ul li a {
+    text-decoration:none ;
+    color: black;
+}
+
+.active,.uplinks ul li :hover{
+    background-color: honeydew;
+    border-radius: 3px;
+}
+.uplinks .fa{
+    margin-right: 8px;
+
+}
+.col h1{
+  font-family: 'Great Vibes', cursive;
+font-size: 100px;
+}
+.col h2{
+    font-family: 'Great Vibes', cursive;
+font-size: 50px;
+}
+
+
+
+    
+    
